@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  background: url('./assets/login-bg.png') no-repeat center/cover;
+
+}
+
+
+h3 {
+  margin-top: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+  color: chocolate;
+}
+
+.line {
+  height: 2px;
+  width: 80%;
+  background-color: bisque;
+}
+
+
+.head {
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 20px;
+  border: 1px solid orange;
+  width: 90%;
+  line-height: 3;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.content {
+  border: 1px solid orange;
+  width: 90%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,61 @@
+html,
+body {
+  background: url('./assets/login-bg.png') no-repeat center/cover;
+}
+
+/* 提示框 */
+
+
+
+.alert {
+  width: 400px;
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+.quit {
+  color: dimgray;
+}
+
+
+.content {
+  margin: 20px auto;
+  padding: 100px;
+  width: 80%;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.child {
+  text-decoration: none;
+  padding: 40px;
+  width: 600px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: sandybrown;
+  color: black;
+
+  text-align: center;
+  transition: all 1.2s
+}
+
+.head {
+  font-size: 30px;
+  color: beige;
+
+}
+
+.child:hover {
+  background-color: yellowgreen;
+  transform: scale(1.2);
+  cursor: pointer
+}
