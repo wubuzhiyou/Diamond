@@ -119,3 +119,26 @@ img {
 .gd {
   margin-left: 10px;
 }
+
+
+.one {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.three {
+  margin-right: 15px;
+}
+
+.four {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+
+}
